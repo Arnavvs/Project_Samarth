@@ -67,6 +67,3 @@ The project works by processing raw data into a local SQL database, which a Stre
 * `requirements.txt`: The list of all Python packages needed.
 * `crop_data.py` / `rainfall.py`: (Optional) Scripts used to fetch the raw data from data.gov.in.
 
-## 🔒 .gitignore
-
-To keep your secrets and large files out of Git, create a `.gitignore` file with the following content:
