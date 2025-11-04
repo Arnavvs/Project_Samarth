@@ -34,11 +34,15 @@ The project works by processing raw data into a local SQL database, which a Stre
 4.  **Set Up Your Google API Key from Google AI STUDIO**
     
 **run.bat will do the following things**
+
 1.**Build the Database**
     Database has three tables - raw_crops_data, raw_rainfall_data,quesry_logs.
+    
 2. Checking for Python and creating virtual environment (venv)
+ 
 3. Activating virtual environment and Installing required packages from requirements.txt
-5.**Run the Streamlit Web App**
+   
+3.**Run the Streamlit Web App**
     ```bash
     streamlit run app.py
     ```
