@@ -16,8 +16,9 @@ The project works by processing raw data into a local SQL database, which a Stre
 1.  **Clone the Repository**
     ```bash
     # Clone the project to your local machine
-    git clone <your-repository-url>
-    cd <project-directory>
+      git clone https://github.com/Arnavvs/Project_Samarth.git
+      cd Project_Samarth
+
     ```
 
 2.  **Unzip the Raw Data**
@@ -27,27 +28,11 @@ The project works by processing raw data into a local SQL database, which a Stre
     * Unzip it in the main project folder.
     * You should now have `raw_crop_data.csv` and `raw_rainfall_data.csv` in your directory.
 
-3.  **Set Up Python Environment**
-    ```bash
-    # Create a virtual environment
-    python -m venv venv
-
-    # Activate it (Windows)
-    .\venv\Scripts\activate
+3.  **Click on run.bat**
     
-    # Activate it (macOS/Linux)
-    source venv/bin/activate
 
-    # Install all required packages
-    pip install -r requirements.txt
-    ```
-
-4.  **Set Up Your Google API Key**
-    * Create a new file in the project's root directory named `.env`
-    * Open this file and add your API key:
-    ```
-    GOOGLE_API_KEY="your-actual-api-key-goes-here"
-    ```
+4.  **Set Up Your Google API Key from Google AI STUDIO**
+    
 
 5.  **Build the Database**
     
