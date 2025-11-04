@@ -33,16 +33,12 @@ The project works by processing raw data into a local SQL database, which a Stre
 
 4.  **Set Up Your Google API Key from Google AI STUDIO**
     
-
-5.  **Build the Database**
-    
-    This is a critical step. The script reads the raw CSVs, cleans them, and creates the `data.gov.db` file the agent needs.
-    ```bash
-    python db_creator.py
-    ```
-    You should see output ending in `--- DATABASE BUILD COMPLETE ---`.
-
-6.  **Run the Streamlit Web App**
+**run.bat will do the following things**
+1.**Build the Database**
+    Database has three tables - raw_crops_data, raw_rainfall_data,quesry_logs.
+2. Checking for Python and creating virtual environment (venv)
+3. Activating virtual environment and Installing required packages from requirements.txt
+5.**Run the Streamlit Web App**
     ```bash
     streamlit run app.py
     ```
@@ -51,7 +47,7 @@ The project works by processing raw data into a local SQL database, which a Stre
 ## 🛠️ Tech Stack
 
 * **Frontend:** Streamlit
-* **AI Agent:** LangChain, Google Gemini
+* **AI Agent:** LangChain,Langgraph, Google Gemini
 * **Data Processing:** pandas
 * **Database:** SQLite
 
@@ -61,8 +57,8 @@ The project works by processing raw data into a local SQL database, which a Stre
 * `agent.py`: Defines the LangChain SQL Agent (the "brain").
 * `db_creator.py`: **(Setup Script)** Reads CSVs and builds the final `data.gov.db`.
 * `data.zip`: Contains the raw data files.
-    * `raw_crop_data.csv`: Raw data on crop production.
-    * `raw_rainfall_data.csv`: Raw data on rainfall.
+    * `raw_crop_data.csv`: Raw data on crop production.(Move to Parent Directory)
+    * `raw_rainfall_data.csv`: Raw data on rainfall.(Move to Parent Diretory)
 * `requirements.txt`: The list of all Python packages needed.
 * `crop_data.py` / `rainfall.py`: (Optional) Scripts used to fetch the raw data from data.gov.in.
 
