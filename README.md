@@ -36,7 +36,8 @@ The project works by processing raw data into a local SQL database, which a Stre
 **run.bat will do the following things**
 
 1.**Build the Database**
-    Database has three tables - raw_crops_data, raw_rainfall_data,quesry_logs.
+
+    Database has three tables - raw_crops_data, raw_rainfall_data,query_logs.
     
 2. Checking for Python and creating virtual environment (venv)
  
