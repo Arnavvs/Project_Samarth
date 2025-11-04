@@ -25,7 +25,7 @@ The project works by processing raw data into a local SQL database, which a Stre
     
     This project requires raw CSV files to build its database.
     * Find the `data.zip` file.
-    * Unzip it in the main project folder.
+    * Move the two CSV files to **PARENT DIRECTORY**
     * You should now have `raw_crop_data.csv` and `raw_rainfall_data.csv` in your directory.
 
 3.  **Click on run.bat**
